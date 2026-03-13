@@ -10,11 +10,11 @@
 
 ## Inhaltsverzeichnis
 
-1. [Zweck](#-Zweck-dieser-Erweiterung)
-2. [Voraussetzungen](#-voraussetzungen)
-3. [Installation](#-installation)
-4. [Konfiguration](#-konfiguration)
-5. [Deinstallation](#-deinstallation)
+1. [Zweck](#zweck-dieser-erweiterung)
+2. [Voraussetzungen](#voraussetzungen)
+3. [Installation](#installation)
+4. [Konfiguration](#konfiguration)
+5. [Deinstallation](#deinstallation)
 
 
 --
@@ -40,7 +40,9 @@ Mit diesem Bundle wird das Contao-Backend um Einstellungen erweitert, die es erm
 
 ---
 
-## Installation über Packagist (TODO - NOCH NICHT VERÖFFENTLICHT - FOLGT NOCH)
+## Installation 
+
+### über Packagist (TODO - NOCH NICHT VERÖFFENTLICHT - FOLGT NOCH)
 
 ```bash
 composer require grobitec/contao-backend-buttons-bundle
@@ -70,7 +72,8 @@ Dort findet sich für jede unterstützte Tabelle eine Gruppe von Checkboxen:
 
 ---
 
-## Deinstallation (TODO - Entfernen testen!)
+## Deinstallation 
+### (TODO - Entfernen testen!)
 
 ```bash
 composer remove grobitec/contao-backend-buttons-bundle
