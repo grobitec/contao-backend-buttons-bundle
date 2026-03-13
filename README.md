@@ -10,7 +10,7 @@
 
 ## Inhaltsverzeichnis
 
-1. [Zweck](##-Zweck-dieser-Erweiterung)
+1. [Zweck](## Zweck-dieser-Erweiterung)
 2. [Voraussetzungen](#-voraussetzungen)
 3. [Installation](#-installation)
 4. [Konfiguration](#-konfiguration)
