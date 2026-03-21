@@ -3,6 +3,7 @@
 **Contao 5.7 Erweiterung** – Backend-Operationen (Kopieren, Verschieben, Löschen etc.) wieder direkt sichtbar machen, ohne sie über das Dropdown-Menü aufrufen zu müssen.
 
 > Entwickelt von **Grobitec IT-Service Jürgen Witlake** | Dev-Version 1.0.0
+
 > Beratung und Unterstützung durch **edm-service Marco Pracht** | [www.webdesign24.biz](https://www.webdesign24.biz/)
  
 
