@@ -16,10 +16,12 @@
 4. [Konfiguration](#konfiguration)
 5. [Deinstallation](#deinstallation)
 
-
+ 
 --
 
 ## Entwurf 1
+
+![Bild1](images/img_1.jpg)
 
 ---
 ## Zweck dieser Erweiterung
