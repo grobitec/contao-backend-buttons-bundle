@@ -23,6 +23,12 @@
 
 ![Bild1](images/img_1.jpg)
 
+<div style="display: flex ">
+  
+  <img src="images/img_2.jpg" width="50%">
+  <img src="images/img_2.jpg" width="50%">
+</div>
+
 ---
 ## Zweck dieser Erweiterung
 In **Contao 5.7** sind einige Backend-Operationen (wie Kopieren, Verschieben, Löschen oder Details anzeigen) nur noch in einem Dropdown-Menü zu finden. Das heißt es muss für viele Aktionen immer erst das Menü geöffnet werden. 
