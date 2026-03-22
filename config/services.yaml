@@ -1,0 +1,11 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    Grobitec\ContaoBackendButtonsBundle\:
+        resource: '../src/'
+        exclude:
+            - '../src/ContaoManager/'
+            - '../src/DependencyInjection/'
+            - '../src/GrobitecBackendButtonsBundle.php'
