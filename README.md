@@ -4,7 +4,7 @@
 
 **Contao 5.7 Erweiterung – Backend-Operationen** (wie Kopieren, Verschieben, Löschen etc.) wieder direkt sichtbar machen, ohne sie über das Dropdown-Menü aufrufen zu müssen.
 
-> Entwickelt von **Grobitec IT-Service Jürgen Witlake** | Dev-Version 1.0.0 <br>
+> Entwickelt von **Grobitec IT-Service Jürgen Witlake** | Version 1.0.0 <br>
 > Beratung und Fachexpertise durch **edm-service Marco Pracht** | [www.webdesign24.biz](https://www.webdesign24.biz/)
  
 
@@ -13,7 +13,7 @@
 ## Inhaltsverzeichnis
 
 1. [Zweck](#zweck-dieser-erweiterung)
-2. [Bilder](#Vorschaubilder)
+2. [Vorschaubilder](#Vorschaubilder)
 3. [Voraussetzungen](#voraussetzungen)
 4. [Installation](#installation)
 5. [Konfiguration](#konfiguration)
@@ -45,9 +45,9 @@ Mit diesem Bundle wird das Contao-Backend um Einstellungen erweitert, die es erm
 
 ## Voraussetzungen
 
-- **Contao** ≥ 5.7 [https://contao.org](https://contao.org)
+- **Contao** ≥ 5.7 <br> [https://contao.org](https://contao.org)
 - **PHP** ≥ 8.3
-- **Composer** (für die Installation) [https://getcomposer.org/download/](https://getcomposer.org/download/)
+- **Composer** (für die Installation) <br> [https://getcomposer.org/download/](https://getcomposer.org/download/)
 
 ---
 
