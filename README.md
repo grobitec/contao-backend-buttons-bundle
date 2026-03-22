@@ -21,7 +21,7 @@
 
 ---
 ## Zweck dieser Erweiterung
-In **Contao 5.7** sind einige Backend-Operationen (wie Kopieren, Verschieben, Löschen oder Details anzeigen) nur noch in einem Dropdown-Menü zu finden. Das heißt es muss für viele Aktionen immer erst das Menü geöffnet werden. 
+In **Contao 5.7** sind einige Backend-Operationen (wie Kopieren, Verschieben, Löschen oder Details anzeigen) nur noch in einem Dropdown&#8209;Menü zu finden. Das heißt es muss für viele Aktionen immer erst das Menü geöffnet werden. 
 Obwohl ich von der neuen LTS Version sehr begeistert bin, finde ich aus persönlichen Gewohnheitsgründen das Dropdown-Menü zwar modern, aber manchmal _etwas_ unpraktisch.  
 Daher habe ich mich entschlossen, eine Erweiterung zu schreiben, die diese Funktion wieder herstellt.
 
@@ -44,7 +44,7 @@ Mit diesem Bundle wird das Contao-Backend um Einstellungen erweitert, die es erm
 ## Voraussetzungen
 
 - **Contao** ≥ 5.7
-- **PHP** ≥ 8.1
+- **PHP** ≥ 8.3
 - **Composer** (für die Installation)
 
 ---
