@@ -11,23 +11,13 @@
 ## Inhaltsverzeichnis
 
 1. [Zweck](#zweck-dieser-erweiterung)
-2. [Voraussetzungen](#voraussetzungen)
-3. [Installation](#installation)
-4. [Konfiguration](#konfiguration)
-5. [Deinstallation](#deinstallation)
+2. [Bilder](#Bilder)
+3. [Voraussetzungen](#voraussetzungen)
+4. [Installation](#installation)
+5. [Konfiguration](#konfiguration)
+6. [Deinstallation](#deinstallation)
 
  
---
-
-## Entwurf 1
-
-![Bild1](images/img_1.jpg)
-
-<div style="display: flex ">
-  
-  <img src="images/img_2.jpg" width="50%">
-  <img src="images/img_2.jpg" width="50%">
-</div>
 
 ---
 ## Zweck dieser Erweiterung
@@ -35,7 +25,18 @@ In **Contao 5.7** sind einige Backend-Operationen (wie Kopieren, Verschieben, L�
 Obwohl ich von der neuen LTS Version sehr begeistert bin, finde ich aus persönlichen Gewohnheitsgründen das Dropdown-Menü zwar modern, aber manchmal _etwas_ unpraktisch.  
 Daher habe ich mich entschlossen, eine Erweiterung zu schreiben, die diese Funktion wieder herstellt.
 
-Mit diesem Bundle wird das Contao-Backend um Einstellungen erweitert, die es ermöglichen, **ausgewählte Operationen wieder direkt als Icon-Buttons** in der Listenansicht anzuzeigen – ähnlich wie es in Contao 5.3 der Fall war.
+Mit diesem Bundle wird das Contao-Backend um Einstellungen erweitert, die es ermöglichen, **ausgewählte Operationen wieder direkt als Icon&#8209;Buttons** in der Listenansicht anzuzeigen – ähnlich wie es in Contao 5.3 der Fall war.
+
+--
+## Bilder
+
+<!-- ![Bild 1 - Backend Ansicht - Standard](images/img_1.jpg) -->
+Ohne Erweiterung
+![Backend Ansicht - Standard](images/img_2.jpg)
+Mit Erweiterung 
+![Backend Ansicht - Sichtbare Operationen](images/img_3.jpg)
+Individuelle Einstellungsmöglichkeiten
+![Backend Ansicht - Einstellungen](images/img_4.jpg)
 
 
 ---
