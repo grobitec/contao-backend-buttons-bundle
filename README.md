@@ -61,7 +61,7 @@ composer require grobitec/contao-backend-buttons-bundle
 
 ## Konfiguration
 
-Nach der Installation liegen die Einstellungen unter:
+Nach der Installation befinden sich die Einstellungen unter:
 
 **Backend → System → Einstellungen → Abschnitt „Backend-Buttons"**
 
