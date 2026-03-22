@@ -11,7 +11,7 @@
 ## Inhaltsverzeichnis
 
 1. [Zweck](#zweck-dieser-erweiterung)
-2. [Bilder](#Bilder)
+2. [Bilder](#Vorschaubilder)
 3. [Voraussetzungen](#voraussetzungen)
 4. [Installation](#installation)
 5. [Konfiguration](#konfiguration)
@@ -27,15 +27,15 @@ Daher habe ich mich entschlossen, eine Erweiterung zu schreiben, die diese Funkt
 
 Mit diesem Bundle wird das Contao-Backend um Einstellungen erweitert, die es ermöglichen, **ausgewählte Operationen wieder direkt als Icon&#8209;Buttons** in der Listenansicht anzuzeigen – ähnlich wie es in Contao 5.3 der Fall war.
 
---
-## Bilder
+---
+## Vorschaubilder
 
 <!-- ![Bild 1 - Backend Ansicht - Standard](images/img_1.jpg) -->
-Ohne Erweiterung
+#### Ohne Erweiterung
 ![Backend Ansicht - Standard](images/img_2.jpg)
-Mit Erweiterung 
+#### Mit Erweiterung 
 ![Backend Ansicht - Sichtbare Operationen](images/img_3.jpg)
-Individuelle Einstellungsmöglichkeiten
+#### Individuelle Einstellungsmöglichkeiten
 ![Backend Ansicht - Einstellungen](images/img_4.jpg)
 
 
