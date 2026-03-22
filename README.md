@@ -45,15 +45,15 @@ Mit diesem Bundle wird das Contao-Backend um Einstellungen erweitert, die es erm
 
 ## Voraussetzungen
 
-- **Contao** ≥ 5.7
+- **Contao** ≥ 5.7 [https://contao.org](https://contao.org)
 - **PHP** ≥ 8.3
-- **Composer** (für die Installation)
+- **Composer** (für die Installation) [https://getcomposer.org/download/](https://getcomposer.org/download/)
 
 ---
 
 ## Installation 
 
-### über Packagist (TODO - NOCH NICHT VERÖFFENTLICHT - FOLGT NOCH)
+### über Packagist
 
 ```bash
 composer require grobitec/contao-backend-buttons-bundle
@@ -71,20 +71,19 @@ Dort findet sich für jede unterstützte Tabelle eine Gruppe von Checkboxen:
 
 | Tabelle | Einstellungsfeld | Verfügbare Operationen |
 | --- | --- | --- |
-| Seiten (`tl_page`) | Seiten | Kopieren, Kopieren mit Kindelementen, Verschieben, Löschen, Details, Versionen, Artikel |
-| Artikel (`tl_article`) | Artikel | Kopieren, Verschieben, Löschen, Details, Versionen |
-| Inhaltselemente (`tl_content`) | Inhaltselemente | Kopieren, Verschieben, Löschen, Details, Versionen |
-| Nachrichten (`tl_news`) | Nachrichten | Kopieren, Verschieben, Löschen, Details, Versionen |
-| Events (`tl_calendar_events`) | Events | Kopieren, Verschieben, Löschen, Details, Versionen |
-| Mitglieder (`tl_member`) | Mitglieder | Kopieren, Löschen, Details, Versionen |
-| FAQ (`tl_faq`) | FAQ | Kopieren, Verschieben, Löschen, Details, Versionen |
+| Seiten <br>(`tl_page`) | Seiten | Kopieren, Kopieren mit Kindelementen, Verschieben, Löschen, Details, Versionen, Artikel |
+| Artikel <br>(`tl_article`) | Artikel | Kopieren, Verschieben, Löschen, Details, Versionen |
+| Inhaltselemente <br>(`tl_content`) | Inhaltselemente | Kopieren, Verschieben, Löschen, Details, Versionen |
+| Nachrichten <br>(`tl_news`) | Nachrichten | Kopieren, Verschieben, Löschen, Details, Versionen |
+| Events <br>(`tl_calendar_events`) | Events | Kopieren, Verschieben, Löschen, Details, Versionen |
+| Mitglieder <br>(`tl_member`) | Mitglieder | Kopieren, Löschen, Details, Versionen |
+| FAQ <br>(`tl_faq`) | FAQ | Kopieren, Verschieben, Löschen, Details, Versionen |
 
 **Hnweis: Einfach die gewünschten Checkboxen ankreuzen und die Einstellungen speichern**
 
 ---
 
 ## Deinstallation 
-### (TODO - Entfernen testen!)
 
 ```bash
 composer remove grobitec/contao-backend-buttons-bundle
