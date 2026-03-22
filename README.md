@@ -7,7 +7,7 @@
 > Entwickelt von **Grobitec IT-Service Jürgen Witlake** | Dev-Version 1.0.0 <br>
 > Beratung und Fachexpertise durch **edm-service Marco Pracht** | [www.webdesign24.biz](https://www.webdesign24.biz/)
  
-Test 2
+
 ---
 
 ## Inhaltsverzeichnis

@@ -1,0 +1,42 @@
+{
+    "name": "grobitec/contao-backend-buttons-bundle",
+    "description": "Contao 5.7 Erweiterung - Backend-Operationen (Kopieren, Verschieben, Löschen etc.) wieder direkt sichtbar machen",
+    "type": "contao-bundle",
+    "keywords": [
+        "contao",
+        "backend",
+        "buttons",
+        "extension",
+        "operations",
+        "copy",
+        "move",
+        "delete"
+    ],
+    "homepage": "https://github.com/grobitec/contao-backend-buttons-bundle",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Grobitec IT-Service Jürgen Witlake",
+            "email": "info@grobitec.de",
+            "homepage": "https://www.grobitec.de",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/grobitec/contao-backend-buttons-bundle",
+        "issues": "https://github.com/grobitec/contao-backend-buttons-bundle/issues"
+    },
+    "require": {
+        "php": "^8.3",
+        "contao/core-bundle": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Grobitec\\ContaoBackendButtonsBundle\\": "src/"
+        }
+    },
+    "extra": {
+        "contao-manager-plugin": "Grobitec\\ContaoBackendButtonsBundle\\ContaoManager\\Plugin"
+    }
+}
