@@ -26,13 +26,16 @@ class BackendButtonsListener
      * und unter welchem Feldnamen die Konfiguration gespeichert ist.
      */
     private const TABLE_FIELD_MAP = [
-        'gtBtnPages' => 'tl_page',
-        'gtBtnArticles' => 'tl_article',
-        'gtBtnContent' => 'tl_content',
-        'gtBtnNews' => 'tl_news',
-        'gtBtnEvents' => 'tl_calendar_events',
-        'gtBtnMembers' => 'tl_member',
-        'gtBtnFaq' => 'tl_faq',
+        'gtBtnPages'        => 'tl_page',
+        'gtBtnArticles'     => 'tl_article',
+        'gtBtnContent'      => 'tl_content',
+        'gtBtnNewsArchives' => 'tl_news_archive',
+        'gtBtnNews'         => 'tl_news',
+        'gtBtnCalendars'    => 'tl_calendar',
+        'gtBtnEvents'       => 'tl_calendar_events',
+        'gtBtnMembers'      => 'tl_member',
+        'gtBtnFaq'          => 'tl_faq',
+        'gtBtnFiles'        => 'tl_files',
     ];
 
     /**
@@ -46,6 +49,27 @@ class BackendButtonsListener
         // Reverse-Map aufbauen (einmalig)
         if (null === self::$reverseMap) {
             self::$reverseMap = array_flip(self::TABLE_FIELD_MAP);
+            
+            // CSS für das Abschneiden/Ausblenden der Icons bei Platzmangel injizieren
+            if (defined('TL_MODE') && TL_MODE === 'BE') {
+                $GLOBALS['TL_HEAD'][] = '<style>
+                    .tl_listing .operations > ul {
+                        display: flex;
+                        flex-wrap: nowrap;
+                    }
+                    .tl_listing .operations > ul > li {
+                        flex-shrink: 1;
+                        min-width: 0;
+                        overflow: hidden;
+                    }
+                    .tl_listing .operations > ul > li:has(> .edit),
+                    .tl_listing .operations > ul > li:has(> .children),
+                    .tl_listing .operations > ul > li.operations-menu-container {
+                        flex-shrink: 0;
+                        overflow: visible;
+                    }
+                </style>';
+            }
         }
 
         // Prüfen, ob diese Tabelle konfiguriert ist

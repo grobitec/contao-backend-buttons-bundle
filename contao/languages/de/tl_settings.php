@@ -12,11 +12,14 @@ $GLOBALS['TL_LANG']['tl_settings']['gt_backend_buttons_legend'] = 'Backend-Butto
 // ─── Feld-Labels ─────────────────────────────────────────────────────────────
 $GLOBALS['TL_LANG']['tl_settings']['gtBtnPages']    = ['Seiten (tl_page)', 'Wählen Sie die Operationen, die in der Seitenstruktur direkt sichtbar sein sollen.'];
 $GLOBALS['TL_LANG']['tl_settings']['gtBtnArticles'] = ['Artikel (tl_article)', 'Wählen Sie die Operationen, die in der Artikelliste direkt sichtbar sein sollen.'];
-$GLOBALS['TL_LANG']['tl_settings']['gtBtnContent']  = ['Inhaltselemente (tl_content)', 'Wählen Sie die Operationen, die bei Inhaltselementen direkt sichtbar sein sollen.'];
-$GLOBALS['TL_LANG']['tl_settings']['gtBtnNews']     = ['Nachrichten (tl_news)', 'Wählen Sie die Operationen, die in der Nachrichtenliste direkt sichtbar sein sollen.'];
-$GLOBALS['TL_LANG']['tl_settings']['gtBtnEvents']   = ['Events (tl_calendar_events)', 'Wählen Sie die Operationen, die in der Eventliste direkt sichtbar sein sollen.'];
-$GLOBALS['TL_LANG']['tl_settings']['gtBtnMembers']  = ['Mitglieder (tl_member)', 'Wählen Sie die Operationen, die in der Mitgliederliste direkt sichtbar sein sollen.'];
-$GLOBALS['TL_LANG']['tl_settings']['gtBtnFaq']      = ['FAQ (tl_faq)', 'Wählen Sie die Operationen, die in der FAQ-Liste direkt sichtbar sein sollen.'];
+$GLOBALS['TL_LANG']['tl_settings']['gtBtnContent']      = ['Inhaltselemente (tl_content)', 'Wählen Sie die Operationen, die bei Inhaltselementen direkt sichtbar sein sollen.'];
+$GLOBALS['TL_LANG']['tl_settings']['gtBtnNewsArchives'] = ['Nachrichtenarchive (tl_news_archive)', 'Wählen Sie die Operationen, die in der Nachrichtenarchiv-Liste direkt sichtbar sein sollen.'];
+$GLOBALS['TL_LANG']['tl_settings']['gtBtnNews']         = ['Nachrichten (tl_news)', 'Wählen Sie die Operationen, die in der Nachrichtenliste direkt sichtbar sein sollen.'];
+$GLOBALS['TL_LANG']['tl_settings']['gtBtnCalendars']    = ['Kalender (tl_calendar)', 'Wählen Sie die Operationen, die in der Kalender-Liste direkt sichtbar sein sollen.'];
+$GLOBALS['TL_LANG']['tl_settings']['gtBtnEvents']       = ['Events (tl_calendar_events)', 'Wählen Sie die Operationen, die in der Eventliste direkt sichtbar sein sollen.'];
+$GLOBALS['TL_LANG']['tl_settings']['gtBtnMembers']      = ['Mitglieder (tl_member)', 'Wählen Sie die Operationen, die in der Mitgliederliste direkt sichtbar sein sollen.'];
+$GLOBALS['TL_LANG']['tl_settings']['gtBtnFaq']          = ['FAQ (tl_faq)', 'Wählen Sie die Operationen, die in der FAQ-Liste direkt sichtbar sein sollen.'];
+$GLOBALS['TL_LANG']['tl_settings']['gtBtnFiles']        = ['Dateiverwaltung (tl_files)', 'Wählen Sie die Operationen, die in der Dateiverwaltung direkt sichtbar sein sollen.'];
 
 // ─── Checkbox-Referenzen ─────────────────────────────────────────────────────
 $GLOBALS['TL_LANG']['tl_settings']['gtBtnOptions'] = [

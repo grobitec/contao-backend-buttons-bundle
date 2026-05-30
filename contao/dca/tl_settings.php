@@ -35,7 +35,21 @@ $GLOBALS['TL_DCA']['tl_settings']['fields']['gtBtnContent'] = [
     'eval'      => ['multiple' => true, 'tl_class' => 'w50'],
 ];
 
+$GLOBALS['TL_DCA']['tl_settings']['fields']['gtBtnNewsArchives'] = [
+    'inputType' => 'checkbox',
+    'options'   => ['copy', 'cut', 'delete', 'show', 'versions'],
+    'reference' => &$GLOBALS['TL_LANG']['tl_settings']['gtBtnOptions'],
+    'eval'      => ['multiple' => true, 'tl_class' => 'w50'],
+];
+
 $GLOBALS['TL_DCA']['tl_settings']['fields']['gtBtnNews'] = [
+    'inputType' => 'checkbox',
+    'options'   => ['copy', 'cut', 'delete', 'show', 'versions'],
+    'reference' => &$GLOBALS['TL_LANG']['tl_settings']['gtBtnOptions'],
+    'eval'      => ['multiple' => true, 'tl_class' => 'w50'],
+];
+
+$GLOBALS['TL_DCA']['tl_settings']['fields']['gtBtnCalendars'] = [
     'inputType' => 'checkbox',
     'options'   => ['copy', 'cut', 'delete', 'show', 'versions'],
     'reference' => &$GLOBALS['TL_LANG']['tl_settings']['gtBtnOptions'],
@@ -63,12 +77,19 @@ $GLOBALS['TL_DCA']['tl_settings']['fields']['gtBtnFaq'] = [
     'eval'      => ['multiple' => true, 'tl_class' => 'w50'],
 ];
 
+$GLOBALS['TL_DCA']['tl_settings']['fields']['gtBtnFiles'] = [
+    'inputType' => 'checkbox',
+    'options'   => ['copy', 'cut', 'delete', 'show', 'versions'],
+    'reference' => &$GLOBALS['TL_LANG']['tl_settings']['gtBtnOptions'],
+    'eval'      => ['multiple' => true, 'tl_class' => 'w50'],
+];
+
 // ─── Legende zur Palette hinzufügen ─────────────────────────────────────────
 
 PaletteManipulator::create()
     ->addLegend('gt_backend_buttons_legend', 'global_legend', PaletteManipulator::POSITION_AFTER)
     ->addField(
-        ['gtBtnPages', 'gtBtnArticles', 'gtBtnContent', 'gtBtnNews', 'gtBtnEvents', 'gtBtnMembers', 'gtBtnFaq'],
+        ['gtBtnPages', 'gtBtnArticles', 'gtBtnContent', 'gtBtnNewsArchives', 'gtBtnNews', 'gtBtnCalendars', 'gtBtnEvents', 'gtBtnMembers', 'gtBtnFaq', 'gtBtnFiles'],
         'gt_backend_buttons_legend',
         PaletteManipulator::POSITION_APPEND
     )
